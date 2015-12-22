@@ -1,23 +1,25 @@
 {
   "version": "1.0.0-*",
   "description": "ConsoleApplication Console Application",
-  "authors": [ "" ],
-  "tags": [ "" ],
+  "authors": [
+    ""
+  ],
+  "tags": [
+    ""
+  ],
   "projectUrl": "",
   "licenseUrl": "",
   "tooling": {
     "defaultNamespace": "ConsoleApplication"
   },
-
   "dependencies": {
+    "System.Runtime.Extensions": "4.0.11-beta-23516"
   },
-
   "commands": {
     "ConsoleApplication": "ConsoleApplication"
   },
-
   "frameworks": {
-    "dnx451": { },
+    "dnx451": {},
     "dnxcore50": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-beta-23516",
