@@ -9,8 +9,8 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.Read();
+            Console.WriteLine("Goodbye, cruel world");
+            Environment.Exit(1);
         }
     }
 }
